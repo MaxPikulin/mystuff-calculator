@@ -32,7 +32,7 @@ function handler(e) {
         return;
     }
 
-    display.textContent == 0 || done ? display.textContent = symbol : display.textContent += symbol;
+    display.textContent == 0 || done ? (display.textContent = symbol, done = false) : display.textContent += symbol;
 }
 
 table.addEventListener('click', handler);
