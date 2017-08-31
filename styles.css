@@ -6,7 +6,7 @@ body {
 
 .calcOuter {
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: 30%;
     width: 250px;
     height: 300px;
@@ -41,6 +41,7 @@ body {
     height: 30px;
     cursor: default;
     transition: background-color 1s;
+    user-select: none;
 }
 
 .table td:hover {
@@ -57,4 +58,9 @@ body {
     width: 200px;
     height: 20px;
     left: 45%;
+}
+
+#C {
+    color: red;
+    font-weight: bold;
 }
